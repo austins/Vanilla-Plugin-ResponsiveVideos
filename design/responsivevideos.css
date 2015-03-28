@@ -1,0 +1,32 @@
+/* Make the video preview wrap responsive */
+.VideoPreview,
+.Video.YouTube .VideoPreview {
+    display: block;
+}
+
+/* Make the video preview image responsive */
+.VideoWrap .VideoPreview img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Make the the video player embed wrap responsive */
+.VideoWrap .VideoPlayer {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Make the the video player embed responsive */
+.VideoWrap .VideoPlayer iframe,
+.VideoWrap .VideoPlayer object,
+.VideoWrap .VideoPlayer embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
