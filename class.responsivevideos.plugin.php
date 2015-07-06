@@ -1,6 +1,6 @@
 <?php defined('APPLICATION') or exit();
 /**
- * Copyright (C) 2015  Austin S. (Shadowdare)
+ * Copyright (C) 2015  Austin S.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -20,9 +20,9 @@
 $PluginInfo['ResponsiveVideos'] = array(
     'Name' => 'Responsive Videos',
     'Description' => 'Makes video preview and embeds responsive to fit the width of the page.',
-    'Version' => '1.0.0',
-    'Author' => 'Austin S. (Shadowdare)',
-    'AuthorUrl' => 'http://vanillaforums.org/profile/addons/16014/Shadowdare',
+    'Version' => '1.0.1',
+    'Author' => 'Austin S.',
+    'AuthorUrl' => 'https://github.com/austins',
     'License' => 'GNU GPL2',
     'MobileFriendly' => true
 );
