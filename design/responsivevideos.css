@@ -1,6 +1,4 @@
-/* Make the video preview wrap responsive */
-.VideoPreview,
-.Video.YouTube .VideoPreview {
+.VideoWrap {
     display: block;
 }
 
