@@ -2,6 +2,8 @@
 
 Makes video preview and embeds responsive to fit the width of the page.
 
+Currently only supports YouTube video embeds and any other embed that uses the "VideoWrap" element.
+
 This plugin is loaded on the following applications: Dashboard and Vanilla, along with support for [Basic Pages](http://vanillaforums.org/addon/basicpages-application) and [Articles](http://vanillaforums.org/addon/articles-application).
 
 This plugin is released under the GNU GPL2 license.
