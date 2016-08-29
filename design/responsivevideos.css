@@ -9,7 +9,8 @@
 }
 
 /* Make the the video player embed wrap responsive */
-.VideoWrap .VideoPlayer {
+.VideoWrap > .Video.Open > .VideoPlayer {
+    display: block !important;
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px;
