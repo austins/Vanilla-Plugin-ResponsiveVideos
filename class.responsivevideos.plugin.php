@@ -35,7 +35,6 @@ class ResponsiveVideosPlugin extends Gdn_Plugin {
      */
     private function IncludeAssets($Sender) {
         $Sender->AddCssFile('responsivevideos.css', 'plugins/ResponsiveVideos');
-        $Sender->AddJsFile('responsivevideos.js', 'plugins/ResponsiveVideos');
     }
 
     /**
